@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ardrone">
+      <UniqueIdentifier>{550b0fc4-8368-48d8-b626-03df6c7d9121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06e2d9e1-74fe-4d29-9e94-f3ea80429740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ardrone">
+      <UniqueIdentifier>{19ba6cc5-e937-4c72-8c33-8d3581893111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4cceaaea-23b5-4465-aeec-3b00075be422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\project">
+      <UniqueIdentifier>{6290eba1-b4d3-4ec8-a8a9-eed7ca9c2657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\project">
+      <UniqueIdentifier>{d9010841-33ed-49dd-82b6-a63184df1fbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\project\calculateAngle.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="src\project\doMovement.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="src\project\findTarget.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="src\project\initialize.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\ardrone.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\video.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\command.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\config.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\navdata.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\tcp.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\udp.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ardrone\version.cpp">
+      <Filter>Source Files\ardrone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\project\helpers.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+    <ClCompile Include="src\project\stateMachine.cpp">
+      <Filter>Source Files\project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ardrone\ardrone.h">
+      <Filter>Header Files\ardrone</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ardrone\uvlc.h">
+      <Filter>Header Files\ardrone</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\bloblib\cvblob.h">
+      <Filter>Header Files\project</Filter>
+    </ClInclude>
+    <ClInclude Include="src\project\helpers.h">
+      <Filter>Header Files\project</Filter>
+    </ClInclude>
+    <ClInclude Include="src\project\project.h">
+      <Filter>Header Files\project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\resource\resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
