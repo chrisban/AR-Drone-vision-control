@@ -1,7 +1,7 @@
 Based off of Puku0x's CV Drone project: github.com/puku0x/cvdrone, which uses a GPL license. For more information on licensing, see the file GPL.txt.
 
 This project's code can be found in the /src/project folder.
-Project members: Christopher Ban, David Mercer, Dalin Williams
+Project members: Christopher Ban, David Mercer, Dalin Williams.
 
 This Project uses Visual Studio and is intended for Parrot AR Drone's to locate and follow a neon yellow construction hat.
 
